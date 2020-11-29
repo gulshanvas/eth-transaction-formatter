@@ -7,8 +7,9 @@
 ### Steps to be followed for running the application
 1. npm install
 2. Provide the value for `WEB3_URL` at env.sh with web3 endpoint(ropsten, goerli, ethereum mainnet)
-3. source env.sh 
-4. import `eth-transaction-formatter.postman_collection.json` file in postman.
+3. Run `source env.sh` on terminal. 
+4. Import `eth-transaction-formatter.postman_collection.json` file in postman.
+5. Run command `npm run start` on terminal.
 
 
 ### Note :
