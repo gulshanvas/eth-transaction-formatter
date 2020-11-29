@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "f4bf3c68-0646-4ba9-ac3d-6410cb6efe6b",
+		"name": "eth-apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/eth/api/v1/transaction/0x057dab75c6f1ced3de716a2b504b77edbca353dd6c4baeed6d1f7e5f4943237e?type=CONTRACT",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"eth",
+						"api",
+						"v1",
+						"transaction",
+						"0x057dab75c6f1ced3de716a2b504b77edbca353dd6c4baeed6d1f7e5f4943237e"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "CONTRACT"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
